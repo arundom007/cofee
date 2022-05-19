@@ -1,0 +1,28 @@
+body{
+    background-color:whitesmoke;
+}
+header{
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top:0;left:0;right:0;
+    z-index: 1000;
+}
+.header .logo img{
+    height: 10rem;
+}
+.header .navbar a{
+    margin:0 1rem;
+    font-size: 1.6rem;
+    color:rgb(8, 100, 50);
+}
+.header .navbar a:hover{
+    color: var(--main-color);
+    border-bottom: 10rem solid var(--main-color);
+    padding-bottom: .5rem;
+    
+}
